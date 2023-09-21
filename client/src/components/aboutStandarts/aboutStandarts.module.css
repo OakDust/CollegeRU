@@ -1,0 +1,28 @@
+.urlStyle > a {
+    color: #ff4d11;
+    text-decoration: none;
+}
+
+
+.header > h1 {
+    margin-bottom: 20px;
+}
+
+.listStyle {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.listStyle > li {
+    padding: 5px 0;
+}
+
+.header > h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.linkStyle > a{
+    text-decoration: none;
+    color: #ff4d11;
+}

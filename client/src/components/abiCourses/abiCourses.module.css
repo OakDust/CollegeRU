@@ -1,0 +1,8 @@
+.coursesBlock{
+    min-height: calc(100vh - 440px);
+}
+
+.coursesBlock > h1{
+    padding-bottom: 14pt;
+}
+

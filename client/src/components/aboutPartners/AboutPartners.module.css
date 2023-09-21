@@ -1,0 +1,43 @@
+.header > h1{
+    margin-bottom: 20px;
+}
+
+
+.partnerBlock {
+    padding: 20px 0;
+}
+
+
+.partnerBlock > img{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+
+
+.partnerBlock > p{
+    color: gray;
+}
+
+
+.linkStyle{
+    text-decoration: none;
+    color: #ff4d11;
+}
+
+
+.linkStyle:hover{
+    text-decoration: none;
+    color: #ff7e54;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+    .partnerBlock > img {
+        width: 150px;
+        height: auto;
+        float: none;
+    }
+}

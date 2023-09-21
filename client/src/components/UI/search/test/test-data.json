@@ -1,0 +1,25 @@
+[
+    {
+        "id": "0",
+        "title": "abiturients",
+        "link": "/"
+    },
+
+    {
+        "id": "1",
+        "title": "hello",
+        "link": "/about"
+    },
+
+    {
+        "id": "2",
+        "title": "test",
+        "link": "/index"
+    },
+
+    {
+        "id": "3",
+        "title": "hehe",
+        "link": "/abit"
+    }
+]

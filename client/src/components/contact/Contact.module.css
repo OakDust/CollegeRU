@@ -1,0 +1,151 @@
+.header {
+    margin-bottom: 30px;
+}
+
+
+.infoStyle > h3 {
+    font-size: 20px;
+}
+
+
+.infoStyle > p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 0;
+}
+
+
+.urlStyle {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ff4d11;
+}
+
+
+.urlStyle:hover{
+    color: #fc7142;
+    cursor: pointer;
+}
+
+
+.tableStyle{
+    margin: 30px 0;
+    background-color: white;
+    width: 60%;
+    border-radius: 10px;
+}
+
+
+.textTable{
+    font-size: 20px;
+}
+
+
+.mapStyle {
+    margin: 20px 0;
+}
+
+
+.important {
+    font-size: 20px;
+    color:#ff4d11;
+    font-weight: bold;
+}
+
+
+.iconStyle{
+    width: 25px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+
+.textStyle {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+
+.imageStyle{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+.mapSize{
+    width: 600px;
+    height: 400px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .urlStyle{
+        font-size: 16px;
+    }
+
+    .tableStyle{
+        width: 100%;
+    }
+
+    .imageStyle{
+        height: 150px;
+        width: auto;
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+
+    .mapSize{
+        display: block;
+        margin: auto;
+        width: 95%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .infoStyle > p {
+        font-size: 16px;
+    }
+
+    .textStyle{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    .urlStyle{
+        font-size: 18px;
+    }
+
+    .tableStyle{
+        width: 100%;
+    }
+
+    .imageStyle{
+        height: 150px;
+        width: auto;
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+
+    .mapSize{
+        display: block;
+        margin: auto;
+        width: 95%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .infoStyle > p {
+        font-size: 18px;
+    }
+
+    .textStyle{
+        font-size: 18px;
+    }
+}

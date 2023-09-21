@@ -1,0 +1,26 @@
+.employmentBlock{
+    min-height: calc(100vh - 440px);
+}
+
+
+.employmentBlock > h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.employmentBlock > h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.urlStyle > a{
+    color: #ff4d11;
+    text-decoration: none;
+}
+
+
+.urlStyle:hover{
+    color:#fa7447
+}

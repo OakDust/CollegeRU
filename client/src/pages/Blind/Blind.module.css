@@ -1,0 +1,94 @@
+.blind {
+    background-color: white;
+}
+
+.link-box > div > div > a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 6px;
+    border-bottom: solid 3px;
+}
+
+.link-box {
+    padding: 21px 0 6px 0;
+    padding: 51px 0 auto 0;
+    font-style: bold;
+    margin: 0 0 15px 0;
+}
+
+.blind-bar {
+    display: grid;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bar-items {
+    justify-content: center;
+    align-items: center;
+    clear: both;
+    white-space: nowrap;
+}
+
+.vi-search {
+    padding: 0 0 9px 0;
+}
+
+.vi-search > a {
+    text-decoration: none;
+
+}
+
+.link-styles {
+    display: flex;
+    align-items: center;
+    clear: both;
+    white-space: nowrap;
+}
+
+.font-transformer > span {
+    margin: 0 0 0 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.bg-transformer > span {
+    margin: 0 0 0 30px;
+    font-size: 30px;
+    cursor: pointer;
+    border: solid 3px #00c40a;
+    color: #00c40a;
+    background-color: black;
+    padding: 6px;
+}
+
+.bg-transformer :first-child {
+    border: solid 3px black;
+    background-color: white;
+    color: black;
+    padding: 6px;
+}
+
+.bg-transformer :last-child {
+    border: solid 2px white;
+    background-color: black;
+    color: white;
+    padding: 6px;
+}
+
+.underline {
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 1;
+}
+
+.font-transformer :first-child {
+    font-size: 20px;
+}
+
+.font-transformer :last-child{
+    font-size: 40px;
+}
+

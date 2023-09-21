@@ -1,0 +1,51 @@
+.specialtiesBlock{
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+
+.specialties{
+    transition: transform .2s; /* Animation */
+    margin: 0 2px 35px 2px;
+}
+
+.specialties >img{
+    display: block;
+    margin: auto;
+    transition: transform .2s;
+    width: auto;
+    height: 600px;
+}
+
+.specialties >img:hover{
+    transform: scale(1.1);
+}
+
+
+.header { 
+    margin-top: 30px;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .specialtiesBlock{
+        padding-bottom: 10px;
+    }
+    
+    .specialties > img{
+        height: 500px;
+        width: auto;
+    }
+}
+
+
+@media screen and (min-width: 1400px) and (max-width: 1500px){
+    .specialtiesBlock{
+        padding-bottom: 10px;
+    }
+    
+    .specialties > img{
+        height: 550px;
+        width: auto;
+    }
+}

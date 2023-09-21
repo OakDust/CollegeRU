@@ -1,0 +1,83 @@
+.headers > h1 {
+    margin-bottom: 20px;
+}
+
+
+.headers > h2 {
+    font-size: 30px;
+    margin: 40px 0;
+}
+
+
+.imageStyle > img{
+    width: 300px;
+    height: auto;
+}
+
+
+.professorBlock{
+    padding-bottom: 40px;
+}
+
+
+.infoStyle > h3{
+    font-size: 27px;
+}
+
+
+.infoStyle > p {
+    color: #575757;
+    font-size: 18px;
+}
+
+
+.linkStyle {
+    text-decoration: none;
+    color: #ff4d11;
+}
+
+
+.linkStyle:hover {
+    text-decoration: none;
+    color: #ff6d3d;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .headers > h1{
+        font-size: 25px;
+    }
+
+    .headers > h2{
+        font-size: 23px;
+        margin: 20px 0;
+    }
+
+    .infoStyle > h3{
+        font-size: 20px;
+    }
+
+    .infoStyle > p{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .linkStyle {
+        font-size: 16px;
+    }
+
+    .imageStyle > img{
+        width: 250px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .imageStyle > img{
+        width: 250px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}

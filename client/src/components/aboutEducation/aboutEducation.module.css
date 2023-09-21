@@ -1,0 +1,20 @@
+.urlStyle > a {
+    text-decoration: none;
+}
+
+
+.header > h1 {
+    margin-bottom: 20px;
+}
+
+
+.header > h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.head2 {
+    margin-bottom: 0px;
+}

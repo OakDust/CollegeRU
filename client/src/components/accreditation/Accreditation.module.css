@@ -1,0 +1,67 @@
+.accreditationBlock {
+    margin-top: 30px;
+    padding: 50px 0;
+    color: beige;
+
+}
+
+.headers > h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+.sidebars {
+    height:auto;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin: 0 10px 0 10px
+}
+
+.transformedBlock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.licenseImage{
+    width: auto;
+    height: 350px;
+}
+
+
+.licenseBlock{
+    text-align: center;
+}
+
+
+.licenseBlock > p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 560px){
+    .headers > h1{
+        text-align: center;
+        font-size: 22px;
+    }
+
+
+    .licenseImage{
+        width: auto;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 560px) and (max-width: 1200px){
+    .headers > h1{
+        text-align: center;
+    }
+    
+    .licenseImage{
+        width: auto;
+        height: 250px;
+    }
+}

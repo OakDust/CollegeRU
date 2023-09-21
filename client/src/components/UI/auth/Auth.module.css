@@ -1,0 +1,51 @@
+.authBlock {
+    animation: reveal 300ms ease-in-out forwards;
+    transform-origin: center;
+    z-index: 1;
+    top: 0;
+    left: 0; 
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px; /* Need a specific value to work */
+}
+
+@keyframes reveal {
+    0% {
+        transform: scale(0);
+
+    }
+    30% {
+        transform: scale(0.7);
+
+    }
+    80% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.containerStyles {
+    top: 0;
+    left: 0; 
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    position: absolute;
+    margin: auto;
+    width: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardStyles {
+    width: 700;
+    height: 600;
+    position: fixed;
+    padding: 50px;
+}

@@ -1,0 +1,7 @@
+.openDoorsBlock{
+    min-height: calc(100vh - 440px);
+}
+
+.openDoorsBlock > h1 {
+    padding-bottom: 18pt;
+}

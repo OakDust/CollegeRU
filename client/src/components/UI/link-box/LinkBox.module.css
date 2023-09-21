@@ -1,0 +1,19 @@
+.colClass {
+    margin: 10px 0 10px 0;
+}
+
+.colClass > a {
+    text-decoration: none;
+    color: orange;
+
+}
+
+.colClass > a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.colClass > a:visited {
+    text-decoration: none;
+    color: red;
+}

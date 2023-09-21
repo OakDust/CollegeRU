@@ -1,0 +1,39 @@
+.header > h1 {
+    margin-bottom: 20px;
+}
+
+
+.header > h4{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.imageStyle {
+    border-radius: 20px;
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+
+.linkStyle {
+    color: #ff4d11;
+    text-decoration: none;
+}
+
+
+.linkStyle:hover {
+    color: #fc7b50;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+    .imageStyle {
+        width: 150px;
+        height: auto;
+        margin-bottom: 10px;
+        float: none;
+    }
+}

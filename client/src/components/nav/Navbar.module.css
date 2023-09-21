@@ -1,0 +1,119 @@
+.top {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.search {
+    cursor: pointer;
+}
+
+.navDropdown {
+    position: relative;
+    background-color: none;
+    width: auto;
+    border: none;
+    border-bottom: none;
+    background: none;
+    text-decoration-color: none;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.itemLined {
+    position: absolute; 
+    z-index: 1; 
+    margin-top: 50px;
+    animation: growDown 200ms forwards;
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0);
+        border-top: 1px solid #ff4d11;
+        width: 280px
+    }
+    30% {
+        transform: scaleY(0.5);
+        border-top: 2px solid #ff4d11;
+        width: 300px;
+    }
+    80% {
+        transform: scaleY(1.1);
+        border-top: 4px solid #ff4d11;
+        width: 340px;
+    }
+    100% {
+        transform: scaleY(1);
+        border-top: 3px solid #ff4d11;
+        width: 330px
+    }
+}
+
+.navDropdown::after {
+    position: absolute;
+    content: '';
+    border: none;
+    border-bottom: none;
+}
+
+.navDropdown::before {
+    position: absolute;
+    content: '';
+    border: none;
+    border-bottom: none;
+}
+
+
+.navComponent {
+    width: 100%;
+    background-color: white;
+}
+
+body {
+    background-color:  #f2f2f2;
+}
+
+body:not(.modal-open) {
+    padding-right: 0!important;
+    overflow: auto!important;
+}
+
+.authBlock {
+    animation: reveal 500ms ease-in-out forwards;
+    transform-origin: center;
+    z-index: 1;
+}
+
+
+@keyframes reveal {
+    0% {
+        transform: scale(0);
+
+    }
+    30% {
+        transform: scale(0.5);
+
+    }
+    80% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.navLink {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    padding: 8px;
+    width: 100%;
+}
+
+
+.navLink:hover {
+    color: rgb(100, 100, 100);
+}

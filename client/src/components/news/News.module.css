@@ -1,0 +1,126 @@
+.headers > h1 {
+    margin-bottom: 20px;
+}
+
+
+.headers > h2{
+    font-size: 30px;
+}
+
+
+.newsBlock {
+    display: block;
+    border: 2px gray solid;
+    border-radius: 25px;
+    background-color: white;
+    transition: 0.3s;
+    height: 100%;
+}
+
+
+.newsBlock:hover {
+    scale: 102%;
+    opacity: 0.9;
+}
+
+
+.newsBlock > span {
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: #ff4d11;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 20px 20px;
+}
+
+
+.newsBlock > h3 {
+    font-size: 23px;
+    padding: 20px 20px 10px 20px;
+}
+
+
+.newsBlock > p {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    color: gray;
+}
+
+
+.imageStyle {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border-radius: 25px 25px 0 0;
+}
+
+
+.listStyle {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.listStyle > li {
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+.linkStyle > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: gray;
+    padding: 5px 10px;
+    transition: (0.3s);
+}
+
+
+.linkStyle > a:hover{
+    background-color: white;
+    border-radius: 20px;
+    transform: scale(101%);
+    color:#ff4d11;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 425px){
+    .new{
+        padding-bottom: 20px;
+    }
+
+    .imageStyle{
+        width: 100%;
+        height: auto;
+    }
+
+    .newsBlock{
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    .newsBlock > h3{
+        font-size: 18px;
+    }
+
+    .newsBlock > p{
+        font-size: 15px;
+    }
+
+    .newsBlock > span{
+        font-size: 13px;
+    }
+
+    .headers > h2 {
+        font-size: 25px;
+    }
+}

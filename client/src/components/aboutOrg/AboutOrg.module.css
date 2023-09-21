@@ -1,0 +1,88 @@
+.aboutBlock{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.infoBlock > h1{
+    font-size: 25px;
+}
+
+
+.infoBlock > p{
+    font-size: 16px;
+    margin: 45px 0 45px 0;
+    width: 95%;
+}
+
+
+.blockStyle{
+    border: 3px solid rgb(207, 207, 207);
+    border-radius: 25px;
+    transition: transform .2s;
+    background-color: white;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+
+.blockStyle > a {
+    display: block;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+
+
+.blockStyle:hover{
+    border-color: #ff4d11;
+    transform: scale(1.1)
+}
+
+
+.iconStyle {
+    width: auto;
+    height: 50px;
+    margin: 20px;
+}
+
+
+.header{
+    margin: 0;
+    vertical-align: bottom;
+}
+
+
+@media  screen and (min-width:320px) and (max-width: 768px){
+    .infoBlock > h1{
+        margin: 0;
+        font-size: 20px;
+    }
+
+
+    .infoBlock > p{
+        width: 100%;
+        margin: 20px 0;
+        font-size: 14px;
+    }
+
+    .iconStyle{
+        height: 35px;
+        width: auto;
+    }
+
+    
+    .blockStyle {
+        border: 2px solid rgb(207, 207, 207);
+    }
+    
+    .blockStyle > a{
+        font-size: 13px;
+    }
+
+}

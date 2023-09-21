@@ -1,0 +1,89 @@
+.header > h1 {
+    margin-bottom: 20px;
+}
+
+
+.iconStyle {
+    width: 50px;
+    height: auto;
+    margin: 15px;
+}
+
+
+.practiceBlock {
+    text-align: center;
+    background-color: white;
+    padding: 0;
+    margin: 20px 10px 40px 10px;
+    border: 3px rgb(192, 192, 192) solid;
+    border-radius: 25px;
+    transition: 0.2s;
+    width: 11%;
+}
+
+
+.practiceBlock > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+
+.practiceBlock:hover{
+    transform: scale(105%);
+    border-color: #ff4d11;
+}
+
+
+.textPractice {
+    color: gray;
+}
+
+
+.headers > h1 { 
+    margin-bottom: 20px;
+}
+
+
+.headers > h4 {
+    margin-bottom: 10px;
+}
+
+
+.listStyle{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.listStyle > li{
+    padding-bottom: 20px;
+}
+
+
+.linkStyle > a{
+    text-decoration: none;
+    color:#ff4d11;
+}
+
+
+.linkStyle >a:hover{
+    color:#ff8157;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 993px){
+    .practiceBlock{
+        margin-bottom: 15px;
+        width: 43%;
+    }
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    .practiceBlock{
+        margin-bottom: 15px;
+        width: 12%;
+    }
+}

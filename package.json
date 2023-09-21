@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "swiper": "^6.8.4"
+  },
+  "name": "collegeru",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/OakDust/CollegeRU.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OakDust/CollegeRU/issues"
+  },
+  "homepage": "https://github.com/OakDust/CollegeRU#readme"
+}

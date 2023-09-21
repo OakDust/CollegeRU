@@ -1,0 +1,567 @@
+.intro{
+    width: 100%;
+    height: 100vh;
+    background: url('../../../public/images/reception/backgroundIntro.png') no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+}
+
+
+.introText{
+    color: white;
+}
+
+
+.introText > h1 {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+
+.introText > h2 {
+    font-size: 45px;
+    padding: 40px 0;
+    font-weight: bold;
+}
+
+
+.header > h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+
+.privilegesStyle > img{
+    width: 40px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+
+.privilegesStyle > p{
+    font-size: 18px;
+    margin: 0;
+}
+
+
+.educationInfo{
+    width: 100%;
+    height: 100vh;
+    margin: 50px 0;
+    background: url('../../../public/images/reception/backgroundEducation.png') no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+}
+
+
+.educationStyle {
+    color: white;
+    text-align: center;
+}
+
+
+.educationStyle > h1{
+    font-size: 45px;
+    padding: 40px 0 100px 0;
+    font-weight: bold;
+}
+
+
+.educationStyle > h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.educationStyle > p{ 
+    font-size: 18px;
+}
+
+
+.educationStyle > img{
+    justify-content: center;
+    width: auto;
+    height: 100px;
+}
+
+
+.documentsBlock{
+    width: 100%;
+    height: 100vh;
+    background: no-repeat url(../../../public/images/reception/backgroundDocuments.png);
+    background-size: 100% 100%;
+    margin: 50px 0;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+}
+
+
+.documentsText{
+    color: white;
+}
+
+
+.documentsText > h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+.documentsText > h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+
+.documentsText > h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.documentsText > h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.documentsText > p{
+    font-size: 18px;
+}
+
+
+.listStyle{
+    font-size: 20px;
+}
+
+
+.button{
+    margin: 30px auto 10px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    width: 200px;
+    height: auto;
+    transition: transform .2s;
+}
+
+
+.button > a{
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+
+.button:hover{
+    transform: scale(1.1)
+}
+
+
+.coursesText > h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+.coursesText > h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0 30px 0;
+}
+
+
+.coursesText > h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.coursesText > p{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.coursesBlock > img {
+    width: 70px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+
+.coursesBlock > p{
+    font-size: 22px;
+    margin: 0;
+}
+
+
+.communicationBlock{
+    width: 100%;
+    height: 100vh;
+    background: no-repeat url('../../../public/images/reception/backgroundCommunication.png');
+    background-size: 100% 100%;
+}
+
+
+.communicationText > h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+
+.communicationText > h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0; 
+}
+
+
+.communicationText > a {
+    display: block;
+    text-align: center;
+    color: #ff4d11;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width:320px) and (max-width: 768px){
+    .intro{
+        background-size: auto 100%;
+    }
+
+    .introText >h2{
+        font-size: 30px;
+    }
+
+    .introText >h1{
+        font-size: 58px
+    }
+
+    .header >h1{
+        font-size: 30px;
+    }
+
+    .privilegesStyle{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .privilegesStyle>img{
+        margin: 10px 0;
+        width: auto;
+        height: 30px;
+        float: none;
+    }
+
+    .privilegesStyle>p{
+        font-size: 15px;
+    }
+
+    .educationInfo{
+        background-size: auto 100%;
+        background-attachment:local;
+    }
+
+    .educationStyle > h1{
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .educationStyle > h2{
+        font-size: 35px;
+    }
+
+    .educationStyle > p{
+        font-size: 18px;
+    }
+
+    .educationStyle > img{
+        width: auto;
+        height: 50px;
+    }
+
+    .documentsBlock{
+        background-size: auto 100%;
+        background-attachment:local;
+    }
+
+    .documentsText >h1{
+        font-size: 30px;
+    }
+
+    .documentsText >h2{
+        font-size: 30px;
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    .documentsText >h3{
+        font-size: 20px;
+    }
+
+    .documentsText >h4{
+        font-size: 14px;
+    }
+
+    .documentsText >p{
+        margin-bottom: 7px;
+        font-size: 12px;
+    }
+
+    .listStyle{
+        margin-bottom: 10px;
+    }
+
+    .listStyle>li{
+        font-size: 14px;
+    }
+
+    .button > a{
+        font-size: 14px;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+    
+    .coursesText >h1{
+        font-size: 30px;
+    }
+
+    .coursesText >h2{
+        font-size: 20px
+    }
+
+    .coursesText >h3{
+        font-size: 25px
+    }
+
+    .coursesText >p{
+        font-size: 20px
+    }
+
+    .coursesBlock{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .coursesBlock > img{
+        width: auto;
+        height: 45px;
+        float: none;
+        margin: 10px 0;
+    }
+
+    .coursesBlock > p{
+        font-size: 18px;
+    }
+
+    .communicationBlock{
+        background-size: auto 100%;
+    }
+
+    .communicationText > h1{
+        font-size: 30px;
+    }
+
+    .communicationText > h2{
+        font-size: 25px;
+    }
+
+    .communicationText > a {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width: 1000px){
+    .intro{
+        background-size: auto 100%;
+    }
+
+    .introText >h2{
+        font-size: 48px;
+    }
+
+    .introText >h1{
+        font-size: 60px
+    }
+
+    .header >h1{
+        font-size: 42px;
+    }
+
+    .privilegesStyle{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .privilegesStyle>img{
+        margin: 10px 0;
+        width: auto;
+        height: 30px;
+        float: none;
+    }
+
+    .privilegesStyle>p{
+        font-size: 15px;
+    }
+
+    .educationInfo{
+        background-size: auto 100%;
+    }
+
+    .educationStyle > h1{
+        font-size: 42px;
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .educationStyle > h2{
+        font-size: 42px;
+    }
+
+    .educationStyle > p{
+        font-size: 18px;
+    }
+
+    .educationStyle > img{
+        width: auto;
+        height: 50px;
+    }
+
+    .documentsBlock{
+        background-size: auto 100%;
+    }
+
+    .documentsText >h1{
+        font-size: 60px;
+    }
+
+    .documentsText >h2{
+        font-size: 42px;
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    .documentsText >h3{
+        font-size: 20px;
+    }
+
+    .documentsText >h4{
+        font-size: 18px;
+    }
+
+    .documentsText >p{
+        margin-bottom: 7px;
+        font-size: 14px;
+    }
+
+    .listStyle{
+        margin-bottom: 10px;
+    }
+
+    .listStyle>li{
+        font-size: 14px;
+    }
+
+    .button > a{
+        font-size: 18px;
+    }
+    
+    .coursesText >h1{
+        font-size: 42px;
+    }
+
+    .coursesText >h2{
+        font-size: 20px
+    }
+
+    .coursesText >h3{
+        font-size: 25px
+    }
+
+    .coursesText >p{
+        font-size: 18px
+    }
+
+    .coursesBlock{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .coursesBlock > img{
+        width: auto;
+        height: 45px;
+        float: none;
+        margin: 10px 0;
+    }
+
+    .coursesBlock > p{
+        font-size: 18px;
+    }
+
+    .communicationBlock{
+        background-size: auto 100%;
+    }
+
+    .communicationText > h1{
+        font-size: 42px;
+    }
+
+    .communicationText > h2{
+        font-size: 25px;
+    }
+
+    .communicationText > a {
+        font-size: 30px;
+    }
+
+}
+
+
+
+@media screen and (min-height:800px) and (max-height: 1000px) and (max-width: 425px){
+    .listStyle>li{
+        font-size: 18px;
+    }
+
+    .documentsText >p{
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+
+    .button > a{
+        font-size: 18px;
+    }
+}

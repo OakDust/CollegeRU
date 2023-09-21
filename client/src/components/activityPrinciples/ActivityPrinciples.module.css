@@ -1,0 +1,62 @@
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.textStyle > p {
+    font-size: 15pt;
+    color: #575757;
+    text-align: center;
+}
+
+
+.textPrinciples > p {
+    font-size: 15pt;
+    color: rgb(139, 139, 139);
+    font-weight: bold;
+    vertical-align: bottom;
+    margin: 10px 0 40px 0;
+    text-align: center;
+}
+
+
+.textPrinciples > h2 {
+    color: #ff4d11;
+    font-size: 30pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.listStyle {
+    padding-left: 0;
+}
+
+
+.listStyle > li{
+    font-size: 15pt;
+    color: #575757;
+    text-align: center;
+    list-style: none;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .textStyle > p{
+        font-size: 16px;
+    }
+
+    .listStyle > li {
+        font-size: 16px;
+    }
+
+    .textPrinciples > h2{
+        font-size: 25px;
+    }
+
+    .textPrinciples > p{
+        font-size: 18px;
+    }
+}

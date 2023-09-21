@@ -1,0 +1,36 @@
+.page404Styles {
+    height: 80vh;
+    position: relative;
+}
+
+.page404Styles > div {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.page404Styles > div > div{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.imageRobot404{
+    width: 400px;
+    height: auto;
+}
+
+
+@media((min-width: 320px) and (max-width: 768px)){
+    .imageRobot404{
+        width: 300px;
+        height: auto;
+    }
+}

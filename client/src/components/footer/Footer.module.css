@@ -1,0 +1,161 @@
+.footerStyles {
+    background-color: #1e1e1e; 
+    max-width: 100%;
+}
+
+
+.infoBlock{
+    padding: 40px 0;
+}
+
+
+.h5Capture {
+    color: #e4e9f0;
+    display: block;
+    margin: 10px 0 15px 0;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #ff4d11;
+    font-size: 18px;
+}
+
+
+.listStyle {
+    padding-left: 0;
+}
+
+
+.listStyle > li {
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+}
+
+
+.footerLink {
+    font-size: 14px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #e4e9f0;
+    margin: 5px 0 5px 0;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: #e4e9f0;
+    display: inline-flex;
+}
+
+.footerLink:hover {
+    color: #e4e9f0;
+}
+
+.footerLink:visited {
+    color: #e4e9f0;
+}
+
+
+.footerLogo{
+    width: 120px;
+    height: auto;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #181818;
+    padding: 20px 0 20px 0;
+}
+
+
+.copyright > p{
+    justify-content: center;
+    color: #909599;
+    text-align: center;
+    font-size: 13px
+}
+
+.copyright > div {
+    margin: auto;
+    margin-bottom: 15px;
+    color: #e4e9f0;
+    justify-content: center;
+}
+
+.safetyText {
+    font-size: 13px;
+    justify-content: center;
+    text-align: left;
+    color: #6C757D;
+    padding: 10px 30px;
+}
+
+
+.socials > a{
+    display: inline-flex;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.socials > a:hover{
+    background-color: #1e1e1e9f;
+}
+
+.socials > a > img{
+    width: 20px;
+    height: auto;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .footerLogo{
+        width: 125px;
+        height: auto;
+    }
+
+    
+    .h5Capture{
+        font-size: 18px;
+    }
+
+    .h5Capture >a{
+        border-bottom: none;
+    }
+
+
+    .footerLink{
+        font-size: 14px;
+    }
+
+
+    .safetyText{
+        font-size: 12px;
+        padding: 6px;
+        text-align: center;
+    }
+
+
+    .copyright{
+        margin: auto;
+    }
+
+
+    .copyright >p{
+        text-align: center;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+
+    .copyright > div{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 992px){
+    .footerLogo{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,277 @@
+[
+    {
+        "id": "0",
+        "title": "ЗНАНИЕ | Основные сведения",
+        "link": "/about/common"
+    },
+
+    {
+        "id": "1",
+        "title": "ЗНАНИЕ | Абитуриентам",
+        "link": "/abiturients"
+    },
+
+    {
+        "id": "2",
+        "title": "ЗНАНИЕ | Новости",
+        "link": "/news"
+    },
+
+    {
+        "id": "3",
+        "title": "ЗНАНИЕ | Контакты",
+        "link": "/contact"
+    },
+
+    {
+        "id": "4",
+        "title": "ЗНАНИЕ | Партнеры",
+        "link": "/about/partners"
+    },
+
+    {
+        "id": "5",
+        "title": "ЗНАНИЕ | Студентам",
+        "link": "/students"
+    },
+
+    {
+        "id": "6",
+        "title": "ЗНАНИЕ | Образование",
+        "link": "/about/education"
+    },
+
+    {
+        "id": "7",
+        "title": "ЗНАНИЕ | Сотрудники",
+        "link": "/employees"
+    },
+
+    {
+        "id": "8",
+        "title": "ЗНАНИЕ | Колледж",
+        "link": "/"
+    },
+
+    {
+        "id": "9",
+        "title": "ЗНАНИЕ | Структура и органы управления",
+        "link": "/about/structure"
+    },
+
+    {
+        "id": "10",
+        "title": "ЗНАНИЕ | Официальные документы",
+        "link": "/about/documents"
+    },
+
+    {
+        "id": "11",
+        "title": "ЗНАНИЕ | Платные образовательные услуги",
+        "link": "/about/paidService"
+    },
+
+    {
+        "id": "12",
+        "title": "ЗНАНИЕ | Педагогический состав",
+        "link": "/about/professors"
+    },
+
+    {
+        "id": "13",
+        "title": "ЗНАНИЕ | Материальное техническое обеспечение и оснащенность образовательного процесса",
+        "link": "/about/techSupport"
+    },
+
+    {
+        "id": "14",
+        "title": "ЗНАНИЕ | Учебные планы",
+        "link": "/curriculum"
+    },
+
+    {
+        "id": "15",
+        "title": "ЗНАНИЕ | Образовательные стандарты и требования",
+        "link": "/about/standarts"
+    },
+
+    {
+        "id": "16",
+        "title": "ЗНАНИЕ | Подготовительные курсы",
+        "link": "/abiturients/courses"
+    },
+
+    {
+        "id": "17",
+        "title": "ЗНАНИЕ | Дни открытых дверей",
+        "link": "/abiturients/opendoors"
+    },
+
+    {
+        "id": "18",
+        "title": "ЗНАНИЕ | Абитуриентам | Дополнительные материалы",
+        "link": "/abiturients/materials"
+    },
+
+    {
+        "id": "19",
+        "title": "ЗНАНИЕ | Оплата обучения",
+        "link": "/students/pay"
+    },
+
+    {
+        "id": "20",
+        "title": "ЗНАНИЕ | Кураторы групп",
+        "link": "/students/curators"
+    },
+
+    {
+        "id": "21",
+        "title": "ЗНАНИЕ | Студентам | Дополнительные материалы",
+        "link": "/students/materials"
+    },
+
+    {
+        "id": "22",
+        "title": "ЗНАНИЕ | Трудоустройство",
+        "link": "/employees/employment"
+    },
+
+    {
+        "id": "23",
+        "title": "ЗНАНИЕ | Право",
+        "link": "/directions/advocate"
+    },
+
+    {
+        "id": "24",
+        "title": "ЗНАНИЕ | Бухгалтер",
+        "link": "/directions/credit"
+    },
+
+    {
+        "id": "25",
+        "title": "ЗНАНИЕ | Учитель начальных классов",
+        "link": "/directions/teacher"
+    },
+
+    {
+        "id": "26",
+        "title": "ЗНАНИЕ | Дошкольное образование",
+        "link": "/directions/preschool"
+    },
+
+    {
+        "id": "27",
+        "title": "ЗНАНИЕ | Сестринское дело",
+        "link": "/directions/doctor"
+    },
+
+    {
+        "id": "28",
+        "title": "ЗНАНИЕ | Дизайн",
+        "link": "/directions/design"
+    },
+
+    {
+        "id": "29",
+        "title": "ЗНАНИЕ | Фармация",
+        "link": "/directions/pharmacist"
+    },
+
+    {
+        "id": "30",
+        "title": "ЗНАНИЕ | Гимн колледжа",
+        "link": "/activity/hymn"
+    },
+
+    {
+        "id": "31",
+        "title": "ЗНАНИЕ | Наши принципы",
+        "link": "/activity/principles"
+    },
+
+    {
+        "id": "32",
+        "title": "ЗНАНИЕ | Приемная комиссия",
+        "link": "/abiturients/reception"
+    },
+
+    {
+        "id": "33",
+        "title": "ЗНАНИЕ | Дополнительное образование",
+        "link": "/directions/additional"
+    },
+
+    {
+        "id": "34",
+        "title": "ЗНАНИЕ | Финансово-хозяйственная деятельность",
+        "link": "/about/finance"
+    },
+
+    {
+        "id": "35",
+        "title": "ЗНАНИЕ | Доступная среда",
+        "link": "/about/environment"
+    },
+
+    {
+        "id": "36",
+        "title": "ЗНАНИЕ | Информационная открытость",
+        "link": "/about/openness"
+    },
+
+    {
+        "id": "37",
+        "title": "ЗНАНИЕ | Устав, лицензия, аккредитация",
+        "link": "/about/license"
+    },
+
+    {
+        "id": "38",
+        "title": "ЗНАНИЕ | Практика юрист",
+        "link": "/students/materials/advocate"
+    },
+
+    {
+        "id": "39",
+        "title": "ЗНАНИЕ | Практика бухгалтер",
+        "link": "/students/materials/credit"
+    },
+
+    {
+        "id": "40",
+        "title": "ЗНАНИЕ | Практика дизайн",
+        "link": "/students/materials/design"
+    },
+
+    {
+        "id": "41",
+        "title": "ЗНАНИЕ | Практика фармация",
+        "link": "/students/materials/pharmacist"
+    },
+
+    {
+        "id": "42",
+        "title": "ЗНАНИЕ | Практика сестринское дело",
+        "link": "/students/materials/doctor"
+    },
+
+    {
+        "id": "43",
+        "title": "ЗНАНИЕ | Практика дошкольное образование",
+        "link": "/students/materials/preschool"
+    },
+
+    {
+        "id": "44",
+        "title": "ЗНАНИЕ | Практика преподаватель начальных классов",
+        "link": "/students/materials/teacher"
+    },
+
+    {
+        "id": "45",
+        "title": "ЗНАНИЕ | Версия для слабовидящих",
+        "link": "/blind"
+    }
+]
