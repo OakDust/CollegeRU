@@ -3,7 +3,7 @@ import Links from './links/Links.json';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import classes from './Search.module.css'
 import searchIcon from '../../../../public/images/searchIcon.png'
 
@@ -50,7 +50,7 @@ const Search = (props) => {
                             }
                         }).map((link) => (
                             <div key={link.title} className={classes.searchResults}>
-                                <a href={link.link} className={classes.linkStyle}>{link.title}</a>
+                                <Link to={link.link} className={classes.linkStyle}>{link.title}</Link>
                                 {/* <p>{link.id}</p> */}
                             </div>
                         ))

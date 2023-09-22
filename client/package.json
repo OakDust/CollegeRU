@@ -23,6 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "react-build": "react-scripts build",
     "start-prod": "webpack serve --config webpack.prod.js",
     "start": "webpack serve",
     "build": "webpack",

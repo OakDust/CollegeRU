@@ -3,11 +3,26 @@ import {Container} from 'react-bootstrap';
 import classes from './PracticeDocs.module.css'
 
 const documents = [
-    'Договор о проведении практики',
-    'Направление для прохождения практики',
-    'Индивидуальное задание на практику',
-    'Дневник прохождения практики',
-    'Отчет о прохождении практики',
+    {
+        name:'Договор о проведении практики',
+        link:'pdf/student/student_practice/design/1. Договор о проведении практики.pdf'
+    },
+    {
+        name:'Направление для прохождения практики',
+        link:'pdf/student/student_practice/design/2. Направление для прохождения практики.pdf'
+    },
+    {
+        name:'Индивидуальное задание на практику',
+        link:'pdf/student/student_practice/design/3. Индивидуальное задание на практику.pdf'
+    },
+    {
+        name:'Дневник прохождения практики',
+        link:'pdf/student/student_practice/design/4. Дневник прохождения практики.pdf'
+    },
+    {
+        name:'Отчет о прохождении практики',
+        link:'pdf/student/student_practice/design/5. Отчет о прохождении практики.pdf'
+    }
 ]
 
 const PracDesign = () => {
@@ -19,12 +34,12 @@ const PracDesign = () => {
                 <ul className={classes.listStyle}>
                     {documents.map((document) => (
                     <li className={classes.linkStyle}>
-                        <a href=''>{document}</a>
+                        <a href={process.env.REACT_APP_API_URL + document.link}>{document.name}</a>
                     </li>
                 ))}
                 </ul>
 
-                <a href="" className={classes.buttonStyle}>
+                <a href={process.env.REACT_APP_API_URL + 'pdf/student/student_practice/54.02.01-Дизайн-по-отраслям.rar'} className={classes.buttonStyle}>
                     Скачать одним архивом
                 </a>
             </div>

@@ -108,9 +108,9 @@ const Footer = () => {
                     Памятка личной безопасности / Противодействие терроризму / Противодействие коррупции
                 </Col>
                 <Col className={classes.socials} md={6} lg={4}>
-                    <a href="#" target='_blank'><img src={icons('./telegram.png')}/></a>
+                    <a href="https://t.me/collegeznanie" target='_blank'><img src={icons('./telegram.png')}/></a>
                     <a href="https://vk.com/gtk.znanie" target='_blank'><img src={icons('./vk.png')}/></a>
-                    <a href="#" target='_blank'><img src={icons('./whatsapp.png')}/></a>
+                    <a href="https://wa.me/79175825109" target='_blank'><img src={icons('./whatsapp.png')}/></a>
                 </Col>
             </Row>
             <p>© 2023 Колледж "ЗНАНИЕ"</p>

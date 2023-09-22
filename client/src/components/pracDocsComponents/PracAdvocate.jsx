@@ -5,23 +5,23 @@ import classes from './PracticeDocs.module.css'
 const documents = [
     {
         name:'Договор о проведении практики',
-        link:'#'
+        link:'pdf/student/student_practice/advocate/1. Договор о проведении практики.pdf'
     },
     {
         name:'Направление для прохождения практики',
-        link:'#'
+        link:'pdf/student/student_practice/advocate/2. Направление для прохождения практики.pdf'
     },
     {
         name:'Индивидуальное задание на практику',
-        link:'#'
+        link:'pdf/student/student_practice/advocate/3. Индивидуальное задание на практику.pdf'
     },
     {
         name:'Дневник прохождения практики',
-        link:'#'
+        link:'pdf/student/student_practice/advocate/4. Дневник прохождения практики.pdf'
     },
     {
         name:'Отчет о прохождении практики',
-        link:'#'
+        link:'pdf/student/student_practice/advocate/5. Отчет о прохождении практики.pdf'
     }
 ]
 
@@ -34,12 +34,12 @@ const PracAdvocate = () => {
                 <ul className={classes.listStyle}>
                     {documents.map((document) => (
                     <li className={classes.linkStyle}>
-                        <a href={document.link}>{document.name}</a>
+                        <a href={process.env.REACT_APP_API_URL + document.link}>{document.name}</a>
                     </li>
                 ))}
                 </ul>
 
-                <a href="" className={classes.buttonStyle}>
+                <a href={process.env.REACT_APP_API_URL + 'pdf/student/student_practice/40.02.01-Право-и-организация-социального-обеспечения.rar'} className={classes.buttonStyle}>
                     Скачать одним архивом
                 </a>
             </div>

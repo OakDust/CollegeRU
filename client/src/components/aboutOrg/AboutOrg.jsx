@@ -42,7 +42,7 @@ const AboutOrg = () => {
                             </Link>
                         </Col>                
                         <Col className={classes.blockStyle}>
-                            <a href="#">
+                            <a href="http://znanie-courses.ru/python/" target='_blank'>
                                 <img src = {distance} className={classes.iconStyle}></img>
                                 <p>Электронная образовательная среда</p>
                             </a>
