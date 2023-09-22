@@ -24,3 +24,5 @@ yarn-error.log*
 
 /api/.env
 /client/.env
+/deploy_api.sh
+/client/deploy.sh
